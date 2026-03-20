@@ -1,0 +1,40 @@
+# ---------- COMMON ----------
+.env
+.env.*
+*.log
+.DS_Store
+Thumbs.db
+
+# ---------- PYTHON BACKEND ----------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env/
+instance/
+.pytest_cache/
+
+# ---------- NODE BACKEND ----------
+node_modules/
+dist/
+build/
+npm-debug.log*
+
+# ---------- FLUTTER FRONTEND ----------
+.dart_tool/
+.packages
+build/
+ios/Pods/
+android/.gradle/
+android/app/build/
+
+# ---------- IDE ----------
+.vscode/
+.idea/
+
+# ---------- OS ----------
+*.swp
+
+README.md
+screenshot.png
